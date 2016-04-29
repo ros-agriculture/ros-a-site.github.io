@@ -49,6 +49,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line:
   - line: We &#10084 Robots!
 
 # Credits content
