@@ -30,35 +30,22 @@
     {% include analytics.html %}
   </head>
 
-  <body>
+    <body id="page-top" class="index">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          
-          <h1 id="project_title">ROS Agriculture</h1>
-          <h2 id="project_tagline">ROS for Agricultural Robotics</h2>
+    {% if site.contact == "static" %}
+    {% include contact_static.html %}
+    {% elsif site.contact == "disqus" %}
+    {% include contact_disqus.html %}
+    {% else %}
+    {% include contact.html %}
+    {% endif %}
 
-        </header>
-    </div>
-
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-       <!-- MAIN CONTENT -->
-       <img src='/images/ros-agriculture.png' />
-       {{ content }}
-          
-          </section>
-</div>
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        
-      </footer>
-    </div>
-
-    
-
-  </body>
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
 </html>
-
