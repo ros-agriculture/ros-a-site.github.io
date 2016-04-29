@@ -50,7 +50,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line:
-  - line: We &#10084 Robots!
+  - line: We <font color=red>&#10084</font> Robots!
 
 # Credits content
 credits: 'Robotic Operating System is free and open source software for robotics <a href="http://ros.org">ROS</a>.'
