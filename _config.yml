@@ -32,7 +32,7 @@ color:
 # Footer settings
 footer:
   copyright: ROS Agriculture
-  location: Earth
+  location: 
   social: 
   credits: OSRF
 
@@ -49,7 +49,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Earth
+  - line: Address: Earth
 
 # Credits content
 credits: 'Robotic Operating System is free and open source software for robotics <a href="http://ros.org">ROS</a>.'
