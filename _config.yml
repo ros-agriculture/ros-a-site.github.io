@@ -49,7 +49,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Address: Earth
+  - line: Earth
 
 # Credits content
 credits: 'Robotic Operating System is free and open source software for robotics <a href="http://ros.org">ROS</a>.'
