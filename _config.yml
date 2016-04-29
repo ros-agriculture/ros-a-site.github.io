@@ -52,7 +52,7 @@ address:
   - line: Earth
 
 # Credits content
-credits: 'Robotic Operating System is a free and open source software for robotics <a href="http://ros.org">ROS</a>.'
+credits: 'Robotic Operating System is free and open source software for robotics <a href="http://ros.org">ROS</a>.'
 
 # Build settings
 markdown: kramdown
