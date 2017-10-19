@@ -39,13 +39,13 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/rosagriculture
+    url: http://twitter.com/ROSAgriculture
   - title: facebook
-    url:
+    url: https://www.facebook.com/ROSAgriculture
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/ros
+    url: http://answers.ros.org
   - title: github
-    url: http://github.com/ros-agriculture
+    url: http://github.com/ROS-Agriculture
 
 # Postal address (add as many lines as necessary)
 address:
@@ -53,7 +53,7 @@ address:
   - line: We <font color=red>&#10084</font> Robots!
 
 # Credits content
-credits: 'Robotic Operating System is free and open source software for robotics <a href="http://ros.org">ROS</a>.'
+credits: 'Robot Operating System is free and open source software for robotics <a href="http://ros.org">ROS</a>.'
 
 # Build settings
 markdown: kramdown
