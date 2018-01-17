@@ -20,6 +20,16 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" }}"></script>
 
+<script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "//cdn.interakt.co/interakt/14b2a83e07a77b11b8363abdeacc7f06.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script>
+
     {% if site.contact == "disqus" %}
     <!-- Disqus Stuff -->
     {% include js_disqus.html %}
