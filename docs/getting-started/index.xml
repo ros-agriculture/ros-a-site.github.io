@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROS Agriculture – ROS Agricuture User Guide</title>
+    <link>http://rosagriculture.org/ros-a/docs/getting-started/</link>
+    <description>Recent Hugo news from gohugo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://rosagriculture.org/ros-a/img/hugo.png</url>
+      <title>GoHugo.io</title>
+      <link>http://rosagriculture.org/ros-a/docs/getting-started/</link>
+    </image>
+    
+	  <atom:link href="http://rosagriculture.org/ros-a/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: ROS</title>
+      <link>http://rosagriculture.org/ros-a/docs/getting-started/ros/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://rosagriculture.org/ros-a/docs/getting-started/ros/</guid>
+      <description>
+        
+        
+        
+
+&lt;h1 id=&#34;ros-documentation&#34;&gt;ROS Documentation&lt;/h1&gt;
+
+&lt;p&gt;You can download a prebuilt image for a raspberry pi or vitural machine here: &lt;a href=&#34;https://downloads.ubiquityrobotics.com/&#34; target=&#34;_blank&#34;&gt;Ubiquity Robotics Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you would like to install ROS on your Ubuntu machine we use the install script from &lt;a href=&#34;https://github.com/linorobot/rosme&#34; target=&#34;_blank&#34;&gt;Linorobot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ros.org/reps/rep-0105.html&#34; target=&#34;_blank&#34;&gt;Coordinate Frames for Mobile Platforms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://answers.ros.org/question/50870/what-frame-is-sensor_msgsimuorientation-relative-to/&#34; target=&#34;_blank&#34;&gt;What frame is sensor_msgs::Imu.orientation relative to?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

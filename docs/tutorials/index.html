@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.55.0-DEV" />
+
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+<link rel="alternate" type="application/rss&#43;xml" href="http://rosagriculture.org/ros-a/docs/tutorials/index.xml">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/ros-a/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/ros-a/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/ros-a/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/ros-a/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/ros-a/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/ros-a/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/ros-a/favicons/android-96x196.png" sizes="96x196">
+<link rel="icon" type="image/png" href="/ros-a/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/ros-a/favicons/android-192x192.png"sizes="192x192">
+
+<title>Tutorials | ROS Agriculture</title><meta property="og:title" content="Tutorials" />
+<meta property="og:description" content="A collection of tutorials" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://rosagriculture.org/ros-a/docs/tutorials/" />
+
+<meta property="og:updated_time" content="2019-03-01T00:00:00&#43;00:00"/><meta property="og:site_name" content="ROS Agriculture" />
+
+<meta itemprop="name" content="Tutorials">
+<meta itemprop="description" content="A collection of tutorials">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorials"/>
+<meta name="twitter:description" content="A collection of tutorials"/>
+
+
+
+
+
+<link rel="preload" href="/ros-a/scss/main.min.3f58a83cd29e36c859b65a2d7ee05e56f8eac76651acbffa2ba5df83f68cf53c.css" as="style">
+<link href="/ros-a/scss/main.min.3f58a83cd29e36c859b65a2d7ee05e56f8eac76651acbffa2ba5df83f68cf53c.css" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <title>Tutorials | ROS Agriculture</title>
+  </head>
+  <body class="td-section">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+	<a class="navbar-brand" href="/ros-a/">
+		<span class="navbar-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240"/> </span><span class="text-uppercase font-weight-bold">ROS Agriculture</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/ros-a/about/"><span>About</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link active" href="/ros-a/docs/"><span class="active">Documentation</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/ros-a/blog/"><span>Blog</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="/ros-a/community/"><span>Community</span></a>
+			</li>
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block">
+ <input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
+</div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+
+
+
+
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+ <input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
+
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
+    
+    
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Documentation</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="ros-a-docs">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/overview/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Overview</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-overview">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/getting-started/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting Started</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-getting-started">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-ros-a-docs-getting-started-ros" href="/ros-a/docs/getting-started/ros/">ROS</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Reference</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/agritech/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Agritech</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-agritech">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/hardware/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Hardware</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-hardware">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/hardware/robotics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Robotics</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-hardware-robotics">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/hardware/electronics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Electronics</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-hardware-electronics">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/hardware/sensors/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Sensors</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-hardware-sensors">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-ros-a-docs-reference-hardware-sensors-position" href="/ros-a/docs/reference/hardware/sensors/position/">Position Sensors</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-ros-a-docs-reference-hardware-sensors-distance" href="/ros-a/docs/reference/hardware/sensors/distance/">Distance Sensors</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/software/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Software</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-software">
+      
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/software/diagnostics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Diagnostics</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-software-diagnostics">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/reference/software/navigation/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Navigation</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-reference-software-navigation">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/contribution-guidelines/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Contribution Guidelines</a>
+  </li>
+  <ul>
+    <li class="collapse " id="ros-a-docs-contribution-guidelines">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/ros-a/docs/tutorials/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Tutorials</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="ros-a-docs-tutorials">
+      
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+    </li>
+  </ul>
+</ul>
+
+  </nav>
+</div>
+
+
+
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+            
+
+
+<div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+
+
+<a href="https://github.com/ros-agriculture/ros-a/edit/master/content/en/docs/Tutorials/_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/ros-agriculture/ros-a/issues/new?title=Tutorials" target="_blank"><i class="fab fa-github fa-fw"></i> Create issue</a>
+</div>
+
+
+
+
+
+
+
+
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+	<ol class="breadcrumb spb-1">
+		
+
+
+
+
+
+
+
+<li class="breadcrumb-item" >
+	<a href="http://rosagriculture.org/ros-a/docs/">Documentation</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item active" aria-current="page">
+	<a href="http://rosagriculture.org/ros-a/docs/tutorials/">Tutorials</a>
+</li>
+
+	</ol>
+</nav	>
+
+            
+<div class="td-content">
+	<h1>Tutorials</h1>
+	<div class="lead">A collection of tutorials</div>
+	
+
+<h1 id="ros">ROS</h1>
+
+<ul>
+<li><a href="https://github.com/methylDragon/ros-sensor-fusion-tutorial" target="_blank">Sensor Fusion</a></li>
+</ul>
+
+	
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 02.03.2019: <a  href="https://github.com/ros-agriculture/ros-a/commit/893330e0761382ef6aaa60e535d7275b667d9786">Update (893330e)</a>
+</div>
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter">
+    <a class="text-white" target="_blank" href="https://twitter.com/ROSAgriculture">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Facebook">
+    <a class="text-white" target="_blank" href="https://facebook.com/ROSAgriculture">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack">
+    <a class="text-white" target="_blank" href="http://rosagriculture.slack.com">
+      <i class="fab fa-slack"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack">
+    <a class="text-white" target="_blank" href="http://rosagriculture.slack.com">
+      <i class="fab fa-slack"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub">
+    <a class="text-white" target="_blank" href="https://github.com/ros-agriculture">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2019 ROS Agriculture All Rights Reserved</small>
+        
+        <p class="mt-2"><a href="/ros-a/about/">Robots in your future ...</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+
+
+
+<script src="/ros-a/js/main.min.15fb3510308e93d6343b7cb0b8d7185bdc039ccda6daccb1117068262a7c9d3a.js" integrity="sha256-Ffs1EDCOk9Y0O3ywuNcYW9wDnM2m2syxEXBoJip8nTo="></script>
+
+
+  </body>
+</html>
