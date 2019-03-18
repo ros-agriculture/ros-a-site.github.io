@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROS Agriculture – ROS Agricuture User Guide</title>
-    <link>http://rosagriculture.org/ros-a/docs/getting-started/</link>
+    <link>http://rosagriculture.org/docs/getting-started/</link>
     <description>Recent Hugo news from gohugo.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://rosagriculture.org/ros-a/img/hugo.png</url>
+      <url>http://rosagriculture.org/img/hugo.png</url>
       <title>GoHugo.io</title>
-      <link>http://rosagriculture.org/ros-a/docs/getting-started/</link>
+      <link>http://rosagriculture.org/docs/getting-started/</link>
     </image>
     
-	  <atom:link href="http://rosagriculture.org/ros-a/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://rosagriculture.org/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -22,10 +22,10 @@
     
     <item>
       <title>Docs: ROS</title>
-      <link>http://rosagriculture.org/ros-a/docs/getting-started/ros/</link>
+      <link>http://rosagriculture.org/docs/getting-started/ros/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://rosagriculture.org/ros-a/docs/getting-started/ros/</guid>
+      <guid>http://rosagriculture.org/docs/getting-started/ros/</guid>
       <description>
         
         
