@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROS Agriculture – ROS Agriculture Documentation</title>
     <link>http://rosagriculture.org/docs/</link>
     <description>Recent Hugo news from gohugo.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Mar 2019 00:50:36 -0500</lastBuildDate>
     <image>
       <url>http://rosagriculture.org/img/hugo.png</url>
       <title>GoHugo.io</title>
