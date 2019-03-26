@@ -30,19 +30,31 @@
         
         
 
+&lt;h1 id=&#34;learning-ros&#34;&gt;Learning ROS&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.ros.org/ROS/Tutorials&#34; target=&#34;_blank&#34;&gt;ROS Tutorials on http://wiki.ros.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dscl.lcsr.jhu.edu/home/courses/ros_short_course_fall_2017/&#34; target=&#34;_blank&#34;&gt;Johns Hopkins University - ROS Short Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robotigniteacademy.com&#34; target=&#34;_blank&#34;&gt;The Construct - Robot Ignite Acadamy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h1 id=&#34;ros-documentation&#34;&gt;ROS Documentation&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.ros.org&#34; target=&#34;_blank&#34;&gt;ROS Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ros.org/reps/rep-0105.html&#34; target=&#34;_blank&#34;&gt;Coordinate Frames for Mobile Platforms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ros-software&#34;&gt;ROS Software&lt;/h1&gt;
 
 &lt;p&gt;You can download a prebuilt image for a raspberry pi or vitural machine here: &lt;a href=&#34;https://downloads.ubiquityrobotics.com/&#34; target=&#34;_blank&#34;&gt;Ubiquity Robotics Download&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you would like to install ROS on your Ubuntu machine we use the install script from &lt;a href=&#34;https://github.com/linorobot/rosme&#34; target=&#34;_blank&#34;&gt;Linorobot&lt;/a&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ros.org/reps/rep-0105.html&#34; target=&#34;_blank&#34;&gt;Coordinate Frames for Mobile Platforms&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h1 id=&#34;questions&#34;&gt;Questions&lt;/h1&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://answers.ros.org&#34; target=&#34;_blank&#34;&gt;Get answers to ROS questions on http://answers.ros.org&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://answers.ros.org/question/50870/what-frame-is-sensor_msgsimuorientation-relative-to/&#34; target=&#34;_blank&#34;&gt;What frame is sensor_msgs::Imu.orientation relative to?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
