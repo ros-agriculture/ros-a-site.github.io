@@ -134,7 +134,7 @@
 &lt;li&gt;In the docker image, go to the workspace folder:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code&gt;cd aws-robomaker-sample-application-helloworld/simulation_w&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd aws-robomaker-sample-application-helloworld/simulation_ws&lt;/code&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Run the following commands to update and install dependencies:&lt;/li&gt;
