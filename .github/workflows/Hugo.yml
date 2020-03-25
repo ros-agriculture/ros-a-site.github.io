@@ -25,7 +25,10 @@ jobs:
         
       - name: Build
         run: hugo --config config.toml
-
+      
+      - name: Add CNAME
+        run: echo "rosagriculture.org" > ./public/CNAME
+         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
