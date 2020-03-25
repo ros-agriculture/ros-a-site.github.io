@@ -2,9 +2,9 @@ name: Hugo
 
 on:
   push:
-    branches: [ master ]
+    branches: [ hugo ]
   pull_request:
-    branches: [ master ]
+    branches: [ hugo ]
 
 jobs:
   deploy:
