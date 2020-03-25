@@ -11,7 +11,7 @@ This branch (hugo) contains the Hugo source files. The content of the website is
 * Install postcss-cli globally: ```sudo npm install -g postcss-cli```
 * Install autoprefixer globally: ```sudo npm install -g autoprefixer```
 * Install Hugo with: ```sudo snap install hugo --channel=extended```
-* Clone the repository: ```git clone https://github.com/ros-agriculture/ros-a.git```
-* Go inside the folder: ```cd ros-a```
+* Clone the repository: ```git clone https://github.com/ros-agriculture/ros-agriculture.github.io.git```
+* Go inside the folder: ```cd ros-agriculture.github.io```
 * Install required node packages: ```npm install```
 * Run hugo and serve the website locally: ```hugo serve```
