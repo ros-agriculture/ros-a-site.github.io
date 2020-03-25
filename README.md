@@ -3,7 +3,7 @@ Website for rosagriculture.org.
 
 ![Hugo](https://github.com/ros-agriculture/ros-agriculture.github.io/workflows/Hugo/badge.svg)
 
-This branch (hugo) contains the Hugo source files and the content of the website is deployed to the master branch. Manual modifications to the master branch will be overwritten if the source files are modified. In order to debug the changes, you can make and test the website locally on your computer.
+This branch (hugo) contains the Hugo source files. The content of the website is deployed to the master branch. Manual modifications to the master branch will be overwritten if the source files are modified. In order to debug the changes, you can make and test the website locally on your computer.
 
 ## Make the website locally on Ubuntu
 
