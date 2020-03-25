@@ -75,7 +75,8 @@ time_format_blog = "02.01.2006"
 [params]
 copyright = "ROS Agriculture"
 privacy_policy = ""
-github_repo = "https://github.com/ros-agriculture/ros-a"
+github_repo = "https://github.com/ros-agriculture/ros-agriculture.github.io"
+github_branch = "hugo"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "002714214824939399291:5_ltfhcysmc"
