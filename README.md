@@ -15,3 +15,9 @@ This branch (hugo) contains the Hugo source files. The content of the website is
 * Go inside the folder: ```cd ros-agriculture.github.io```
 * Install required node packages: ```npm install```
 * Run hugo and serve the website locally: ```hugo serve```
+
+## Resources
+
+- [Hugo](http://gohugo.io)
+- [Docsy theme for Hugo](https://www.docsy.dev/)
+- [Host Hugo on GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
