@@ -25,14 +25,12 @@ jobs:
         
       - name: Build
         run: hugo --config config.toml
-      
-      - name: Add CNAME
-        run: echo "rosagriculture.org" > ./public/CNAME
          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          cname: rosagriculture.org
           publish_dir: ./public
           publish_branch: master  # deploying branch
 
