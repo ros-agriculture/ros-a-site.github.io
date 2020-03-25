@@ -1,5 +1,7 @@
-# ros-ag-hugo
+# ros-agriculture.github.io
 Website for rosagriculture.org.
+
+![Hugo](https://github.com/ros-agriculture/ros-agriculture.github.io/workflows/Hugo/badge.svg)
 
 ## Make the website locally on Ubuntu
 
