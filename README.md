@@ -1,8 +1,6 @@
 # ros-ag-hugo
 Website for rosagriculture.org.
 
-![Hugo](https://github.com/ros-agriculture/ros-ag-hugo/workflows/Hugo/badge.svg)
-
 ## Make the website locally on Ubuntu
 
 * Install node js and npm: ```sudo apt install nodejs npm```
